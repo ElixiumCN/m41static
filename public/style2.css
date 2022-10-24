@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    
+/* to get rid of inbuilt default browser margins & padding */
+/* put this at the very top of any css file */
+
+
+/* if viewport  */
+@media (max-width: 600px) {
+    /* or min-width */
+    p {
+        background-color: yellow;
+    }    
+}
+
+/* google "color picker" */
+
+p {
+    background-color: red;
+    padding: 20px;
+    /* padding around content within the box */
+    margin: 20px;
+    /* change gap size between other elements in the viewport & the viewport edges */
+    width: 200px;
+    /* padding is in addition to width */
+    box-sizing: border-box;
+    /* box sizing locks the whole element to be the specified e.g. width  */
+
+}
+/* browser dev tools > styles > scroll to botto to see the box model */
+
+#myDiv {
+    width: 400px;
+    /* 100vw = entire width of viewport/browser */
+    /* 100vh = entire width of viewport/browser */
+    background-color: blue;
+}
+/* import comfortaa font */
+
+p {
+    background-color: aliceblue;
+    padding: 20px;
+    width: 75%;
+    box-sizing: border-box;
+    color: greenyellow;
+    font-family: 'Oswald', sans-serif;
+}

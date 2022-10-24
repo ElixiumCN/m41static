@@ -244,7 +244,7 @@ h2 {
 }
 
 body{
-    background-image: url("background2.png");
+    background-image: url("../images/background2.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
